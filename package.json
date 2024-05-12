@@ -1,0 +1,16 @@
+{
+	"name": "nodejs-new-features",
+	"private": true,
+	"type": "module",
+	"version": "0.1.0",
+	"description": "",
+	"scripts": {
+		"fmt": "biome format --write **/*.js",
+		"lint": "biome lint **/*.js"
+	},
+	"author": "Masashi Hirano",
+	"license": "MIT",
+	"devDependencies": {
+		"@biomejs/biome": "1.7.3"
+	}
+}
