@@ -10,6 +10,10 @@
 	},
 	"author": "Masashi Hirano",
 	"license": "MIT",
+	"workspaces"[
+		"v22",
+		"v23"
+	],
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.3"
 	}
