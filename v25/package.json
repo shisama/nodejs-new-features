@@ -1,0 +1,25 @@
+{
+  "name": "v25",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=25.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allow-net": "node --permission --allow-net src/allow-net.js",
+    "allow-net-fail": "node --permission src/allow-net.js",
+    "perf-jsonstringify": "node src/perf_JSONstringify.js",
+    "eventerror": "node src/eventError.js",
+    "customeerror": "node src/customeError.js",
+    "sessionstorage": "node src/sessionStorage.js",
+    "localstorage": "node --localstorage-file=./localStorageFile src/localStorage.js"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3"
+  }
+}
