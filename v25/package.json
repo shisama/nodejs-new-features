@@ -14,8 +14,8 @@
     "allow-net": "node --permission --allow-net src/allow-net.js",
     "allow-net-fail": "node --permission src/allow-net.js",
     "perf-jsonstringify": "node src/perf_JSONstringify.js",
-    "eventerror": "node src/eventError.js",
-    "customeerror": "node src/customeError.js",
+    "errorevent": "node src/errorEvent.js",
+    "customerrorevent": "node src/CustomErrorEvent.js",
     "sessionstorage": "node src/sessionStorage.js",
     "localstorage": "node --localstorage-file=./localStorageFile src/localStorage.js"
   },
