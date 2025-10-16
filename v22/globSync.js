@@ -1,6 +1,6 @@
-import { globSync } from 'node:fs';
+import { globSync } from "node:fs";
 
-const result = globSync('**/*.js');
+const result = globSync("**/*.js");
 console.log(result);
 /**
 [

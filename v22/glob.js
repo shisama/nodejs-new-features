@@ -1,7 +1,7 @@
-import { glob } from 'node:fs';
+import { glob } from "node:fs";
 
-glob('**/*.js', (err, matches) => {
-  console.log(matches);
+glob("**/*.js", (err, matches) => {
+	console.log(matches);
 });
 /**
 [

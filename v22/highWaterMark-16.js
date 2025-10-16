@@ -17,9 +17,9 @@ console.log(`writableHighWaterMark: ${writer.writableHighWaterMark}`);
 console.time("timer");
 reader.pipe(writer);
 writer.on("drain", () => {
-  counter++;
+	counter++;
 });
 writer.on("finish", () => {
-  console.log(`drain: ${counter}`);
-  console.timeEnd("timer");
+	console.log(`drain: ${counter}`);
+	console.timeEnd("timer");
 });
